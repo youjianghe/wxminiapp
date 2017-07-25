@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":false
+  },
+  "tabBar": {
+    "borderStyle":"white",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "爱拼宝宝",
+        "iconPath":"/images/14.png",
+        "selectedIconPath":"/images/14.png"
+       }, {
+         "pagePath": "pages/logs/logs",
+         "text": "热拼",
+         "iconPath":"/images/15.png",
+        "selectedIconPath":"/images/15.png"
+      },{
+        "pagePath":"",
+        "text":"搜索",
+        "iconPath":"/images/16.png",
+        "selectedIconPath":"/images/16.png"
+      },{
+        "pagePath":"",
+        "text":"妈妈说",
+        "iconPath":"/images/17.png",
+        "selectedIconPath":"/images/17.png"
+      },{
+        "pagePath":"",
+        "text":"我的",
+        "iconPath":"/images/18.png",
+        "selectedIconPath":"/images/18.png"
+
+      }
+      ]
+  },
+  "debug": true
+}

@@ -1,0 +1,33 @@
+/**index.wxss**/
+body{background-color: #ebebeb;}
+.topslide{}
+.topslide image{width: 100%;}
+.section{width: 100%;height: 170rpx;border-bottom:1px solid #dddddd;background-color: #ffffff;}
+.section .sleft{width: 40%;height: 100%;border-right:1px solid #dddddd; float: left;padding: 10rpx; font-size: 20rpx;color: #666666; text-align: center;box-sizing: border-box;} 
+.section .sleft image{width: 17rpx;height: 17rpx;} 
+.section .sleft view{width: 100%;text-align: left;}
+.section .sleft image.bigimg{width: 116rpx;height: 97rpx;}
+.section .sright{width: 60%;float: left;box-sizing: border-box;color: #666666;} 
+.section .sright .sright-top{width:100%;height: 70rpx;padding: 10rpx; font-size: 20rpx;text-align: center; border-bottom:1px solid #dddddd;box-sizing: border-box;-webkit-box-sizing: border-box;}
+.section .sright .sright-top image{width: 41rpx;height: 45rpx;float: left;padding-left: 30rpx;} 
+.section .sright .sright-top .textcontent{float: left;padding-left: 30rpx;} 
+.section .sright .sright-bottom{width: 100%;height: 100rpx; text-align: center;font-size: 20rpx;box-sizing: border-box;-webkit-box-sizing: border-box;}
+.section .sright .sright-bottom image{width: 16rpx;height: 15rpx;}
+.section .sright .sright-bottom image.bigimg{width: 45rpx;height: 40rpx;}
+.section .sright .sright-bottom .srb1{padding: 10rpx;width: 50%;float: left;border-right:1px solid #dddddd;box-sizing: border-box;-webkit-box-sizing: border-box;}
+.section .sright .sright-bottom .srb1 view{text-align: left;box-sizing: border-box;-webkit-box-sizing: border-box;}
+
+.section .sright .sright-bottom .srb2{padding: 10rpx;width: 50%;float: left;box-sizing: border-box;-webkit-box-sizing: border-box;}
+.section .sright .sright-bottom .srb2 view{text-align: left;}
+
+.scroll-view_H{display: flex;white-space: nowrap;align-items: center;background-color: #ffffff;}
+.scroll-view_H view{ display: inline-block;width: auto;margin:0 15rpx; height:100rpx;line-height: 100rpx; text-align: center;box-sizing: border-box; }
+.scroll-view_H view.active{color: red;border-bottom:4px solid orangered;}
+
+.list{display: flex;flex-direction: column;}
+.list .item{background-color: #ffffff;margin-top: 15px;}
+.list .item image{width: 100%;}
+.list .item view{-webkit-box-sizing: border-box;box-sizing:border-box;margin-top: 10px; padding: 0 15rpx;font-size:30rpx;color: #666666;font-weight: 700;}
+.list .item view.goodTips{font-size: 24rpx;color: #999999;font-weight: 400;}
+.list .item view.price{ width: 50%;float: left;color: red;font-size: 30rpx;}
+.list .item button{width:200rpx;height: 60rpx; float: right;font-size: 30rpx;margin-right: 15rpx;margin-bottom: 15rpx; color: red;border:1px solid red;background-color: none;}
